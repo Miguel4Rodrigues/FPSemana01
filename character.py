@@ -2,18 +2,10 @@ name = []
 attack = []
 defence = []
 
-name.insert(0, input())
-attack.insert(0, int(input()))
-defence.insert(0, int(input()))
-
-name.insert(1, input())
-attack.insert(1, int(input()))
-defence.insert(1, int(input()))
-
-name.insert(2, input())
-attack.insert(2, int(input()))
-defence.insert(2, int(input()))
-
+for i in range(3):
+    name.insert(i, input())
+    attack.insert(i, int(input()))
+    defence.insert(i, int(input()))
 
 characters = [[name[0], (attack[0], defence[0])], [name[1], (attack[1], defence[1])], [name[2], (attack[2], defence[2])]]
 
